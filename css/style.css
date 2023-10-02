@@ -107,3 +107,11 @@ body{
   }
   
 }
+/* Nav fix */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* screens in the range 320px to 480px */
+  nav{
+    gap: 12px !important;
+  }
+
+}
